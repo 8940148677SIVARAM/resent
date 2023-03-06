@@ -1,0 +1,101 @@
+<!doctype html>
+	<html>
+		<head>
+			<title>sale</title>
+			<script src="https://code.iconify.design/iconify-icon/1.0.5/iconify-icon.min.js"></script>
+			<style>
+			*{
+			padding:0px;
+			margin:0px;
+			box-sizing:border-box;
+			}
+			.con{
+			width:30%;
+			margin:20px auto;
+			border:2px solid #ccc;
+			border-radius:8px;
+			line-height:40px;
+			box-shadow:0px 0px 20px 0px #ccc;
+			}
+			.flex{
+			display:flex;
+			flex-wrap:wrap;
+			justify-content:center;
+			}
+			img{
+			position:relative;
+			}
+			img::after{
+			content:"new";
+			background:green;
+			position:absolute;
+			}
+			small{
+			color:gray;
+			}
+			.col1{
+			width:80%;
+			}
+			.col2{
+			width:20%;
+			}
+			.col3{
+			width:30%;
+			}
+			.col4{
+			width:70%;
+			}
+			.justify{
+			justify-content:space-between;
+			}
+			.rel{
+			position:relative;
+			}
+			p{
+			position:absolute;
+            top:0;
+			right:15%;
+			background:blue;
+			border-radius:50%;
+			padding:3px  10px;
+			}
+			h2{
+			color:blue;
+			}
+			h2,small,p{
+			margin-left:5px;
+			}
+			</style>
+		</head>
+		 <body>
+			<div class="con">
+			    <div class="rel flex">
+			     <img src="about.jpg" width="70%">
+				 <p>new</p>
+				</div>
+				 <small>Vitamins & supplements</small>
+				 <h2>Redmores Vitamin c 1000,<br> Echinacea + zinc ...</h2>
+			     <div class="flex justify" >
+				    <div style="width:100%">
+					<iconify-icon icon="material-symbols:star" style="color:gold"></iconify-icon>
+					   <iconify-icon icon="material-symbols:star" style="color:gold"></iconify-icon>
+					   <iconify-icon icon="material-symbols:star" style="color:gold"></iconify-icon>
+					   <iconify-icon icon="material-symbols:star-half" style="color:gold"></iconify-icon>
+					   <iconify-icon icon="material-symbols:star-half" style="color:gold"></iconify-icon>
+					</div>
+					<div class="col1">
+					   <h2>$6.99</h2>
+					</div>
+					<div class="col2">
+						<iconify-icon icon="material-symbols:lock-open-outline" style="color:gold"></iconify-icon>
+					</div>
+					<div class="col4">
+					  <small>stock level</small>
+					</div>
+					<div class="col3">
+						<meter value="0.2">
+					</div>
+				 </div>
+			</div>
+		 </body>
+	</html>
